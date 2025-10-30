@@ -7,7 +7,8 @@ module.exports = {
         path: path.join(__dirname,"/dist"),
         filename: "index_bundle.js",
     },
-    module:{
+    module:{ 
+        noParse: /marked\.umd\.js/, 
         rules: [
             {
                 test: /\.js$|\.jsx$/,

@@ -1,12 +1,25 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+.editor-container {
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.input-section, .preview-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.preview {
+  border-left: 1px solid #ccc;
+  padding: 10px;
+  background: #f8f8f8;
+  overflow-y: auto;
 }
